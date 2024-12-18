@@ -52,7 +52,7 @@ export default defineConfig({
         fa: { label: "Persian", lang: "fa", dir: "rtl" },
         fr: { label: "Français", lang: "fr" },
         ja: { label: "日本語", lang: "ja" },
-        "zh-cn": { label: "简体中文", lang: "zh-CN" },
+        zh: { label: "简体中文", lang: "zh-CN" },
       },
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [
@@ -64,7 +64,7 @@ export default defineConfig({
             fa: "راهنمای شروع سریع",
             fr: "Guides de Démarrage Rapide",
             ja: "クイックスタートガイド",
-            "zh-cn": "快速入门指南",
+            zh: "快速入门指南",
           },
           autogenerate: { directory: "guides" },
         },
